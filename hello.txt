@@ -1,0 +1,5 @@
+DevOps is a set of practices that combines software development (Dev) and IT operations (Ops).  
+It aims to shorten the development lifecycle while delivering high-quality software.  
+Key principles include continuous integration, continuous delivery, and automation.  
+DevOps fosters collaboration between teams to improve efficiency and reduce silos.  
+Popular tools include Docker, Kubernetes, Jenkins, and Ansible.  
