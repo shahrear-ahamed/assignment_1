@@ -1,0 +1,19 @@
+name: Read the text File
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  read-hello-txt:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v4
+
+     
+      - name: Read and output hello.txt content
+        run: |
+          echo "Content of hello.txt:"
+          cat hello.txt
